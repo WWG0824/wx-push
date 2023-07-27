@@ -3,7 +3,11 @@ const axios = require("axios");
 const sendData = {
   touser,
   template_id,
-  data: {},
+  data: {
+    nowDate:{
+      value:"赵小姐",
+      color:"#173177",
+    },
 };
 
 async function run() {
